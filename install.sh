@@ -24,7 +24,3 @@ sed -e "s/%VERSION%/${VERSION}/" -i ${DKMS_ROOT_PATH}/dkms.conf
 dkms add ${MODULE_NAME}/${VERSION}
 dkms build ${MODULE_NAME}/${VERSION}
 dkms install ${MODULE_NAME}/${VERSION}
-
-# uninstall
-# dkms remove ${MODULE_NAME}/${VERSION} --all
-# rm -rf ${DKMS_ROOT_PATH}
