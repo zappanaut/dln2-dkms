@@ -1,3 +1,4 @@
-ACTION=="bind", KERNEL=="gpiochip*", SUBSYSTEM=="gpio", SUBSYSTEMS=="usb", \
+KERNEL=="gpiochip*", SUBSYSTEM=="gpio", SUBSYSTEMS=="usb", \
         ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="6170", \
+        OWNER="root",GROUP="gpio",MODE="0660", \
         SYMLINK+="gpio-by-serial/$attr{serial}"
