@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=5.15.0
+VERSION=6.1.0
 MODULE_NAME=dln2
 
 
