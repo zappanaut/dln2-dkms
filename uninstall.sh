@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=6.1.0
+VERSION=6.6.21
 MODULE_NAME=dln2
 
 DKMS_ROOT_PATH=/usr/src/${MODULE_NAME}-${VERSION}
